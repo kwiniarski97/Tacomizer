@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="8dp">
+    <TextView
+      android:text=""
+      style="@style/orange_title_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_baselayer_title" />
+    <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_baselayer_body" />
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="2dip"
+      android:background="#c0c0c0" />
+    <TextView
+      android:text=""
+      style="@style/orange_title_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_mixin_title" />
+    <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_mixin_body" />
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="2dip"
+      android:background="#c0c0c0" />
+    <TextView
+      android:text=""
+      style="@style/orange_title_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_condiment_title" />
+    <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_condiment_body" />
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="2dip"
+      android:background="#c0c0c0" />
+    <TextView
+      android:text=""
+      style="@style/orange_title_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_seasoning_title" />
+    <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_seasoning_body" />
+    <View
+      android:layout_width="fill_parent"
+      android:layout_height="2dip"
+      android:background="#c0c0c0" />
+    <TextView
+      android:text=""
+      style="@style/orange_title_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_shell_title" />
+    <TextView
+      android:text=""
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/taco_recipe_shell_body" />
+  </LinearLayout>
+</ScrollView>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:weightSum="10"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:padding="8dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="6"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text=""
+        android:id="@+id/taco_vote_title" />
+    <LinearLayout
+        android:weightSum="2"
+        android:layout_weight="4"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Meh"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#efbd20"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:id="@+id/taco_vote_unlike" />
+        <Button
+            android:text="Nice"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#efbd20"
+            android:textColor="#000"
+            android:layout_height="wrap_content"
+            android:id="@+id/taco_vote_like" />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/loadingPanel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="-50dp"
+        android:background="@color/material_grey_850">
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true" />
+    </RelativeLayout>
+</LinearLayout>
